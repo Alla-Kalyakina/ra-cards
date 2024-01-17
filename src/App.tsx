@@ -1,14 +1,13 @@
 import Card from './components/Card'
 import './App.css'
 import CardBody from './components/CardBody';
-import { Component } from 'react';
 
 export type CardProps = {
     image?: string;
     title: string;
     text: string;
     btnText: string;
-    //body?: Component 
+    body?: React.ReactNode 
   }
 
 function App() {
